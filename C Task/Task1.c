@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int Add(int x, int y);
 int Subtract(int x, int y);
@@ -17,30 +17,30 @@ int main()
     printf("\nPress 4 for divide");
 
     printf("\n\nPlease Enter Any Two Number ");
-    scanf("%d %d",&firstNumber,&secondNumber);
+    scanf("%d %d", &firstNumber, &secondNumber);
 
     printf("\nPlease Enter Task Number ");
-    scanf("%d",&TaskNumber);
+    scanf("%d", &TaskNumber);
 
-    if(TaskNumber==1)
+    if (TaskNumber == 1)
     {
-        result = Add(firstNumber,secondNumber);
-        printf("Sum is :- %d",result);
+        result = Add(firstNumber, secondNumber);
+        printf("Sum is :- %d", result);
     }
-    else if(TaskNumber==2)
+    else if (TaskNumber == 2)
     {
-        result = Subtract(firstNumber,secondNumber);
-        printf("Subtract is :- %d",result);
+        result = Subtract(firstNumber, secondNumber);
+        printf("Subtract is :- %d", result);
     }
-    else if(TaskNumber==3)
+    else if (TaskNumber == 3)
     {
-        result=Multiply(firstNumber,secondNumber);
-        printf("Multiply is :- %d",result);
+        result = Multiply(firstNumber, secondNumber);
+        printf("Multiply is :- %d", result);
     }
-    else if( TaskNumber==4)
+    else if (TaskNumber == 4)
     {
-        result= Divide(firstNumber,secondNumber);
-        printf("Divide is :- %d",result);
+        result = Divide(firstNumber, secondNumber);
+        printf("Divide is :- %d", result);
     }
     else
     {
